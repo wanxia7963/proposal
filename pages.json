@@ -1,0 +1,125 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor":"#21212c",
+				"navigationBarTextStyle":"white"			
+			}
+        }	
+        ,{
+            "path" : "pages/home/home",
+            "style" : {
+				"navigationBarTitleText": "提案系统",
+				"navigationBarBackgroundColor":"#21212c",
+				"navigationBarTextStyle":"white",
+				"enablePullDownRefresh": true
+			}
+        }
+
+        ,{
+            "path" : "pages/proposal/proposal",
+            "style" : {
+				"navigationBarTitleText": "新建提案",
+				"navigationBarBackgroundColor":"#21212c",
+				"navigationBarTextStyle":"white"
+			}
+        }
+
+        ,{
+            "path" : "pages/unwork/unwork",
+            "style" : {
+				"navigationBarTitleText": "待办事项列表",
+				"navigationBarBackgroundColor":"#21212c",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/proposalall/proposalall",
+            "style" : {
+				"navigationBarTitleText": "提案日志列表",
+				"navigationBarBackgroundColor":"#21212c",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/proposalinfo/proposalinfo",
+            "style" : {
+				"navigationBarTitleText": "提案详情",
+				"navigationBarBackgroundColor":"#21212c",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/proposalcontent/proposalcontent",
+            "style" : {
+				"navigationBarTitleText": "提案内容",
+				"navigationBarBackgroundColor":"#21212c",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/personal/personal",
+            "style" : {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor":"#21212c",
+				"navigationBarTextStyle":"white"				
+			}
+        }
+        ,{
+            "path" : "pages/updatepwd/updatepwd",
+            "style" : {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarBackgroundColor":"#21212c",
+				"navigationBarTextStyle":"white"		
+			}
+        }
+		,{
+		    "path" : "pages/mpvue-echarts/mpvue-echarts",
+		    "style" : {
+				"navigationBarTitleText": "测试图表",
+				"navigationBarBackgroundColor":"#21212c",
+				"navigationBarTextStyle":"white"		
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#49a0f9",
+	    "borderStyle": "black",
+		"iconWidth":"23px",
+		"fontSize":"12px",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+					"pagePath": "pages/home/home",
+					"iconPath": "static/images/tab_unhome.png",
+					"selectedIconPath": "static/images/tab_home.png",
+					"text": "首页"
+				},
+				{
+					"pagePath": "pages/mpvue-echarts/mpvue-echarts",
+					"iconPath": "static/images/tab_unproposal.png",
+					"selectedIconPath": "static/images/tab_proposal.png",
+					"text": "工作汇总"
+				},
+				{
+					"pagePath": "pages/personal/personal",
+					"iconPath": "static/images/tab_unpersonal.png",
+					"selectedIconPath": "static/images/tab_personal.png",
+					"text": "我的"
+				}]
+				
+	}
+
+	
+	
+	
+}

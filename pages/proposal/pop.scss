@@ -1,0 +1,138 @@
+	.icon_close{
+		width: 20upx;
+		height: 20upx;
+		position: absolute;
+		top:18upx;
+		right: 25upx;;
+	}
+
+	.pop_container{
+		position: relative;
+		width: 660upx;
+		height:720upx;
+		background: #fff;
+		border-radius: 5upx;
+		box-sizing: border-box;
+	
+	}
+	/deep/ .pop_title{
+		height: 50upx;
+		line-height: 59upx;
+		font-size: 24upx;
+		text-align: center;
+		color: #2b2b37;
+		font-family: PingFang-SC-Bold;
+		border-bottom: 3upx solid #eee;
+	}
+	.pop_body{
+		padding: 20upx 40upx 0 40upx;
+	}
+	.search{
+		display: flex;	
+		align-items: center;
+		height: 42upx;
+		.label_search{
+			font-size: 24upx;
+			color: #2b2b37;
+			font-family: AdobeHeitiStd-Regular;
+			margin-right: 20upx;
+		} 
+		.inputC{
+			display: flex;
+			justify-content:space-between;
+			align-items: center;
+			height: 100%;
+			width: 460upx;		
+			box-sizing: border-box;
+			padding-left: 20upx;
+			padding-right: 20upx;
+			border-radius: 3upx;
+			border: solid 2upx #e5e5e5;
+			.input_search{
+				display: inline-block;
+				width: 380upx;
+				font-size: 24upx;
+				color: #2b2b37;
+				font-family: AdobeHeitiStd-Regular;
+				height: 100%;
+			}
+			.icon_search{
+				width: 21upx;
+				height: 21upx;
+			}
+		} 
+	} 
+	
+	/deep/.td{
+		width: 100upx!important;
+	}
+	
+	/deep/.td_wrap{
+		width: 100upx!important;
+	}
+	.subC{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100upx;
+		border-top:1px solid #eee;
+		margin-top: 20upx;
+		.close_btn{
+			width: 120upx;
+			height: 40upx;
+			background-color: #aaa;
+			border-radius: 4upx;
+			color:#fff;
+			font-family: AdobeHeitiStd-Regular;
+			font-size: 18upx;
+			
+		}
+		.sub_btn{
+			width: 120upx;
+			height: 40upx;
+			background-color: #49a0f9;
+			border-radius: 4upx;
+			color:#fff;
+			font-family: AdobeHeitiStd-Regular;
+			font-size: 18upx;
+		}
+	}
+	
+	
+	
+	
+	
+	// 表格
+		
+	.warp{
+		padding-top: 20upx;
+	}
+	.icon_add{
+		width:17upx;
+		height:17upx;
+	}
+	.t_header{
+		.t-th{
+			color: #2b2b38;
+			font-family: AdobeHeitiStd-Regular;
+			font-size: 20upx;
+			overflow: hidden;
+			text-overflow: ellipsis;
+	
+		}
+	}
+	.t_body {
+		height: 400upx;
+		.t-td{
+			color: #a8a8a9;
+			font-family: AdobeHeitiStd-Regular;
+			font-size: 20upx;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.sub{
+			color: #49a0f9;;
+		}
+	}
+
+
